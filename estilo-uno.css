@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: #F9C743; 
+    color: white;
+    background-image: url('img/fondo5.jpg');
+    background-blend-mode: soft-light;  
+}
+
+
+.padre{
+    height: 100vh;
+}
+
+
+/* img banner */
+
+.banner-img{
+    width: 100%;
+    height: 250px;
+}
+/* menu nav */
+.menu ul{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    list-style: none;
+    grid-template-areas: "p-p p-n c";
+    font-size: 30px;
+    background: #60371e;
+    list-style: none;
+    position: relative;
+    gap: 0 20px;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, .7); */
+    /* border: black 2px solid; */
+   
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover{
+    background:#fffcfb15; 
+}
+.p-p{
+    display: grid;
+    grid-area: p-p;
+}
+.p-n{
+    display: grid;
+    grid-area: p-n;
+}
+.c{
+    display: grid;
+    grid-area: c;
+}
+/* descripcion */
+.h1{
+    text-align: center;
+    justify-items: center;
+    padding: 10px 40px;
+    background-color: #a6351b;
+    width: 40%;
+    margin: 30px auto;
+    box-shadow: 0 0 20px rgba(177, 175, 175, 0.876);
+
+    
+    /* border: black 2px solid; */
+}
+header{
+    background: #a6351b94
+    ;
+    text-align: center;
+    justify-items: center;
+    width: 40%;
+    margin: 30px auto;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(177, 175, 175, 0.7);
+    /* border: black 2px solid; */
+}
+
+header h2{
+    padding: 15px;
+    font-size: 26px;
+    /* background-color: #A6341B; */
+    /* border: black 2px solid; */
+}
+
+header p{
+padding: 20px;
+text-align: justify;
+font-weight: bold;
+}
+
+/* footer */
+
+.footer{
+    background-color: #2f3640;
+    color: #616161;
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
